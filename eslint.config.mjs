@@ -7,7 +7,7 @@ export default [
   ...tseslint.configs.recommended,
   eslint.configs.recommended,
   {
-    ignores: ['dist', 'tests'],
+    ignores: ['dist', 'tests','*.mjs'],
   },
   {
     files: ['src'],
