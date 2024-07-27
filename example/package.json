@@ -1,0 +1,17 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "Example project using es-module-package",
+  "type": "module",
+  "main": "script.ts",
+  "scripts": {
+    "start": "node --loader ts-node/esm ./script.ts"
+  },
+  "dependencies": {
+    "es-module-package": "file:../dist"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
