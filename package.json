@@ -1,0 +1,46 @@
+{
+  "name": "es-module-package",
+  "version": "1.0.0",
+  "description": "A backend library for Node.js built with TypeScript",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takeruun/es-module-package.git"
+  },
+  "keywords": [
+    "node",
+    "typescript",
+    "library",
+    "backend"
+  ],
+  "author": "Takeruun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/takeruun/es-module-package/issues"
+  },
+  "homepage": "https://github.com/takeruun/es-module-package#readme",
+  "devDependencies": {
+    "@types/jest": "^27.0.0",
+    "@types/node": "^16.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^27.0.0",
+    "ts-jest": "^27.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.0",
+    "typescript-eslint": "^7.17.0"
+  },
+  "dependencies": {},
+  "volta": {
+    "node": "20.16.0",
+    "yarn": "1.22.19"
+  }
+}
